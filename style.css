@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(231, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    gap: 10px;
+    overflow-x: hidden;
+}
+
+.FirstDIV{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+}
+.pic{
+    width: 50%;
+    height: 100%;
+}
+
+.MainInfo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.TopInfo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(81, 80, 80);
+}
+
+.link{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(110, 110, 200);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(81, 80, 80);
+}
+
+.BotInfo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.LOGO{
+    width: 100%;
+    height: 100%;
+}
+
+.SecDIV{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    padding: 25px;
+}
+
+.textM{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(81, 80, 80);
+}
+
+.text2{
+    font-size: 20px;
+    color: rgb(131, 130, 130);
+}
+
+.text1{
+    font-size: 14px;
+    color: rgb(63, 62, 62);
+}
+
+
+footer{
+    font-size: 14px;
+    color: rgb(174, 173, 173);
+    background-color: rgb(80, 116, 80);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 685px) {
+    .FirstDIV {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pic, 
+    .MainInfo {
+        width: 100%;
+    }
+
+    .TopInfo, 
+    .BotInfo {
+        align-items: center;
+    }
+
+    .LOGO {
+        width: 70%; 
+        height: auto;
+    }
+
+    .h2, .h3, .link {
+        font-size: 20px;
+    }
+}
